@@ -7,7 +7,7 @@
 
 #include "DHT.h"
 
-#define DHTPIN 5     // Digital pin connected to the DHT sensor
+#define DHTPIN 5    // Digital pin connected to the DHT sensor
 // Feather HUZZAH ESP8266 note: use pins 3, 4, 5, 12, 13 or 14 --
 // Pin 15 can work but DHT must be disconnected during program upload.
 
@@ -27,10 +27,11 @@
 // Note that older versions of this library took an optional third parameter to
 // tweak the timings for faster processors.  This parameter is no longer needed
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
-DHT dht(DHTPIN, DHTTYPE);
+// DHT dht(DHTPIN, DHTTYPE);
+DHT dht(5, DHT22);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println(F("DHTxx test!"));
 
   dht.begin();

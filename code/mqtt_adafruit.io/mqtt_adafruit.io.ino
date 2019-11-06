@@ -16,7 +16,7 @@ WiFiClient client;
 Adafruit_MQTT_Client mqtt(&client, IO_SERVER, IO_SERVERPORT, IO_USERNAME, IO_KEY);
 
 // définition du feed sur lequel on va publier les données
-Adafruit_MQTT_Publish test = Adafruit_MQTT_Publish(&mqtt, IO_USERNAME "/feeds/workshop-trakk.test");
+Adafruit_MQTT_Publish test = Adafruit_MQTT_Publish(&mqtt,  IO_USERNAME "/feeds/workshop-trakk.test");
 
 // définitioin du feed auquel on va souscrire pour recevoir les données
 Adafruit_MQTT_Subscribe led = Adafruit_MQTT_Subscribe(&mqtt, IO_USERNAME "/feeds/workshop-trakk.led");
@@ -57,6 +57,7 @@ void loop() {
       connect();
     }
   }
+  
   float value = random(1000);
 
   // publication des données vers le feed "test"
