@@ -9,7 +9,7 @@
 * [Adafruit Feather ESP8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/overview)
 * [Capteur Humidité et températeure DHT22](https://learn.adafruit.com/dht/overview)
 * [Ecran TFT 2.4'' couleur](https://learn.adafruit.com/adafruit-2-4-tft-touch-screen-featherwing/)
-* 
+* [Documentation de Adafruit sur MQTT](https://learn.adafruit.com/mqtt-adafruit-io-and-you/overview)
 
 
 ### All the Internet of Things (Adafruit + Digikey)
@@ -62,7 +62,8 @@ La communication utilises deux lignes et passe par deux signaux (numériques): S
 *   [https://fr.wikipedia.org/wiki/MQTT](https://fr.wikipedia.org/wiki/MQTT) 
 *   [http://mqtt.org/](http://mqtt.org/)
 *   [https://mosquitto.org/](https://mosquitto.org/)
-*   [https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt](https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt) 
+*   [https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt](https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt)
+*   [Documentation de Adafruit sur MQTT](https://learn.adafruit.com/mqtt-adafruit-io-and-you/overview) 
 
 ### **Node-RED**
 *   [Site officiel](https://nodered.org/) 
